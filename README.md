@@ -44,6 +44,24 @@ Here is a tutorial example on how to use the code:
 
    ![mimest.jpg](https://github.com/diogoff/unlabelled-event-logs/raw/master/images/mimest.jpg)
 
+   Note that due to imprecise assignments there may be sequences that were not present in the original log and also the number of detected sources may differ.
+
+6. Repeat the above steps with different parameters and even different input sequences and probabilities in `example.txt`. In general, the higher the number of instances, the more accurate the results become. The number of overlapping instances also has some influence in the results, as it will be easier for the algorithm to discover the original sequences if this number is low.
+
+From step 5 above it is possible to use the transition matrix **M** to obtain a graphical model such as this one:
+
+![model.jpg](https://github.com/diogoff/unlabelled-event-logs/raw/master/images/model.jpg)
+
+In the paper, we introduce the G-metric to compare the behavior of the estimated model to that of the true model. We also present other results on the performance and accuracy of the algorithm for different logs and under different working assumptions.
+
+### Summary
+
+1. Clone the repository.
+
+2. Run: `$ python mimgen.py 20 5 example.txt sequence.txt`
+   Try different values for the number of instances and the overlap (in the example above, the values used were 20 and 5, respectively)
+
+3. Run: `$ python mimest.py < sequence.txt`
 
 ### How to cite this work
 
