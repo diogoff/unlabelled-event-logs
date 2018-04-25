@@ -22,7 +22,7 @@ Here is a tutorial example on how to use the code:
 
 1. Start by looking at the contents of `example.txt`, which basically contains the behavior that will be used to create the output symbol sequence **x**. In each line there is a sequence and its corresponding probability. These probabilities should add up to 1.0, but the code in `mimgen.py` will normalize the distribution even if this is not the case.
 
-2. Assuming that Python 2.x is installed and available in the system, open a command line and run:
+2. Assuming that Python 2 is installed and available in the system, open a command line and run:
    ```
    $ python mimgen.py 20 5 example.txt sequence.txt
    ```
