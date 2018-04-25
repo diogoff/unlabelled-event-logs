@@ -1,4 +1,3 @@
-
 import math
 
 # general routine for normalizing probability distributions
