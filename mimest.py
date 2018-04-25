@@ -1,4 +1,3 @@
-
 import sys
 import mim
 
@@ -26,6 +25,6 @@ m.printmodel(m.M)
 # show the probability distribution of the different sequences in the model
 pz = mim.sortbyvalue(m.seqprobs())
 for z, p in pz:
-	print '{0:.3f} : {1}'.format(p, z)	
+	print '{0:.3f} : {1}'.format(p, z)
 
-print 'Total number of sources: {0}'.format(K)	
+print 'Total number of sources: {0}'.format(K)
