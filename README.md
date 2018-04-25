@@ -59,6 +59,7 @@ In the paper, we introduce the G-metric to compare the behavior of the estimated
 1. Download the 4 files: `mim.py`, `mimest.py`, `mimgen.py` and `example.txt`.
 
 2. Run: `$ python mimgen.py 20 5 example.txt sequence.txt`
+
    Try different values for the number of instances and the overlap (in the example above, the values used were 20 and 5, respectively)
 
 3. Run: `$ python mimest.py < sequence.txt`
