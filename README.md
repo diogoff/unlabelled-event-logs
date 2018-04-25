@@ -66,4 +66,4 @@ In the paper, we introduce the G-metric to compare the behavior of the estimated
 
 ### How to cite this work
 
-See the [publisher's website](https://link.springer.com/chapter/10.1007%2F978-3-642-03848-8_11).
+See the [publisher's website](https://link.springer.com/chapter/10.1007%2F978-3-642-03848-8_11) to export a citation in the desired format.
